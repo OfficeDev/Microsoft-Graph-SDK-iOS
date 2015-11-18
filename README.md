@@ -1,5 +1,6 @@
-# Microsoft Graph SDK for iOS (Preview)
+# Microsoft Graph SDK for iOS (preview)
 
+Microsoft Graph (previously called Office 365 unified API) exposes multiple APIs from Microsoft cloud services through a single REST API endpoint (Microsoft Graph API endpoint v1.0). Using Microsoft Graph, you can turn formerly difficult or complex queries into simple navigations.
 Easily integrate services and data from Microsoft Graph into native iOS apps using this Objective-C library.
 
 ---

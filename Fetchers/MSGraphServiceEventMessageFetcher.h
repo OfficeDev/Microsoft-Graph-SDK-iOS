@@ -30,7 +30,9 @@ root for authoritative license information.﻿
 /** MSGraphServiceEventMessageFetcher
  *
  */
+__deprecated_msg("This SDK is deprecated. Please review the README for further information (https://github.com/OfficeDev/Microsoft-Graph-SDK-iOS).")
 @interface MSGraphServiceEventMessageFetcher : MSOrcEntityFetcher
+
 
 @property (copy, nonatomic, readonly) MSGraphServiceEventMessageOperations *operations;
 

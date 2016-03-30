@@ -35,7 +35,9 @@ typedef NS_ENUM(NSInteger, MSGraphServiceRecurrenceRangeType) {
 };
 
 
+__deprecated_msg("This SDK is deprecated. Please review the README for further information (https://github.com/OfficeDev/Microsoft-Graph-SDK-iOS).")
 @interface MSGraphServiceRecurrenceRangeTypeSerializer : NSObject
+
 +(MSGraphServiceRecurrenceRangeType) fromString:(NSString *) string;
 +(NSString *) toString: (MSGraphServiceRecurrenceRangeType) value;
 @end

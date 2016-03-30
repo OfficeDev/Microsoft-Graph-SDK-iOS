@@ -26,7 +26,9 @@ root for authoritative license information.﻿
 /** MSGraphServicePostCollectionOperations
  *
  */
+__deprecated_msg("This SDK is deprecated. Please review the README for further information (https://github.com/OfficeDev/Microsoft-Graph-SDK-iOS).")
 @interface MSGraphServicePostCollectionOperations : MSGraphServiceOutlookItemCollectionOperations
+
 
 - (void)forwardWithComment:(NSString *)comment toRecipients:(MSGraphServiceRecipient *)toRecipients callback:(void (^)(int, MSOrcError*))callback ;
 - (void)forwardRawWithComment:(NSString *)comment toRecipients:(NSString *)toRecipients callback:(void (^)(NSString *, MSOrcError*))callback ;

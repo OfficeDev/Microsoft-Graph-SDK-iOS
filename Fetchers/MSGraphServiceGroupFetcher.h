@@ -48,7 +48,9 @@ root for authoritative license information.﻿
 /** MSGraphServiceGroupFetcher
  *
  */
+__deprecated_msg("This SDK is deprecated. Please review the README for further information (https://github.com/OfficeDev/Microsoft-Graph-SDK-iOS).")
 @interface MSGraphServiceGroupFetcher : MSOrcEntityFetcher
+
 
 @property (copy, nonatomic, readonly) MSGraphServiceGroupOperations *operations;
 

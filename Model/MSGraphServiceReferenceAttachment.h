@@ -25,7 +25,9 @@ root for authoritative license information.﻿
 /** Interface MSGraphServiceReferenceAttachment
  *
  */
+__deprecated_msg("This SDK is deprecated. Please review the README for further information (https://github.com/OfficeDev/Microsoft-Graph-SDK-iOS).")
 @interface MSGraphServiceReferenceAttachment : MSGraphServiceAttachment <MSOrcInteroperableWithDictionary>
+
 
 
 + (NSDictionary *) $$$_$$$propertiesNamesMappings;

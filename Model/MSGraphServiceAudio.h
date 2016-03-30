@@ -26,7 +26,9 @@ root for authoritative license information.﻿
 /** Interface MSGraphServiceAudio
  *
  */
+__deprecated_msg("This SDK is deprecated. Please review the README for further information (https://github.com/OfficeDev/Microsoft-Graph-SDK-iOS).")
 @interface MSGraphServiceAudio : MSOrcBaseEntity <MSOrcInteroperableWithDictionary>
+
 
 /** Property album
  *

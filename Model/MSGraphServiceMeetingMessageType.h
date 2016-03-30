@@ -44,7 +44,9 @@ typedef NS_ENUM(NSInteger, MSGraphServiceMeetingMessageType) {
 };
 
 
+__deprecated_msg("This SDK is deprecated. Please review the README for further information (https://github.com/OfficeDev/Microsoft-Graph-SDK-iOS).")
 @interface MSGraphServiceMeetingMessageTypeSerializer : NSObject
+
 +(MSGraphServiceMeetingMessageType) fromString:(NSString *) string;
 +(NSString *) toString: (MSGraphServiceMeetingMessageType) value;
 @end

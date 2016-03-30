@@ -27,7 +27,9 @@ root for authoritative license information.﻿
 /** Interface MSGraphServiceEventMessage
  *
  */
+__deprecated_msg("This SDK is deprecated. Please review the README for further information (https://github.com/OfficeDev/Microsoft-Graph-SDK-iOS).")
 @interface MSGraphServiceEventMessage : MSGraphServiceMessage <MSOrcInteroperableWithDictionary>
+
 
 /** Property meetingMessageType
  *

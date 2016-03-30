@@ -26,7 +26,9 @@ root for authoritative license information.﻿
 /** MSGraphServiceUserCollectionOperations
  *
  */
+__deprecated_msg("This SDK is deprecated. Please review the README for further information (https://github.com/OfficeDev/Microsoft-Graph-SDK-iOS).")
 @interface MSGraphServiceUserCollectionOperations : MSGraphServiceDirectoryObjectCollectionOperations
+
 
 - (void)assignLicenseWithAddLicenses:(MSGraphServiceAssignedLicense *)addLicenses removeLicenses:(NSString *)removeLicenses callback:(void (^)(MSGraphServiceUser *, MSOrcError*))callback ;
 - (void)assignLicenseRawWithAddLicenses:(NSString *)addLicenses removeLicenses:(NSString *)removeLicenses callback:(void (^)(NSString *, MSOrcError*))callback ;

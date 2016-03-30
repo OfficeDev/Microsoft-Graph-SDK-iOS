@@ -26,7 +26,9 @@ root for authoritative license information.﻿
 /** MSGraphServiceDirectoryObjectCollectionOperations
  *
  */
+__deprecated_msg("This SDK is deprecated. Please review the README for further information (https://github.com/OfficeDev/Microsoft-Graph-SDK-iOS).")
 @interface MSGraphServiceDirectoryObjectCollectionOperations : MSGraphServiceEntityCollectionOperations
+
 
 - (void)checkMemberGroupsWithGroupIds:(NSString *)groupIds callback:(void (^)(NSString *, MSOrcError*))callback ;
 - (void)checkMemberGroupsRawWithGroupIds:(NSString *)groupIds callback:(void (^)(NSString *, MSOrcError*))callback ;

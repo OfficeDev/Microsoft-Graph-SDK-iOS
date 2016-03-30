@@ -44,7 +44,9 @@ typedef NS_ENUM(NSInteger, MSGraphServiceResponseType) {
 };
 
 
+__deprecated_msg("This SDK is deprecated. Please review the README for further information (https://github.com/OfficeDev/Microsoft-Graph-SDK-iOS).")
 @interface MSGraphServiceResponseTypeSerializer : NSObject
+
 +(MSGraphServiceResponseType) fromString:(NSString *) string;
 +(NSString *) toString: (MSGraphServiceResponseType) value;
 @end

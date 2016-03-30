@@ -35,7 +35,9 @@ root for authoritative license information.﻿
 /** Client MSGraphServiceClient
  *
  */
+__deprecated_msg("This SDK is deprecated. Please review the README for further information (https://github.com/OfficeDev/Microsoft-Graph-SDK-iOS).")
 @interface MSGraphServiceClient : MSOrcBaseContainer
+
 
 - (instancetype)initWithUrl:(NSString *)url  dependencyResolver:(id<MSOrcDependencyResolver>)resolver;
 @property (strong, nonatomic, readonly, getter=directoryObjects) MSGraphServiceDirectoryObjectCollectionFetcher *directoryObjects;

@@ -27,7 +27,9 @@ root for authoritative license information.﻿
 /** MSGraphServiceDriveOperations
  *
  */
+__deprecated_msg("This SDK is deprecated. Please review the README for further information (https://github.com/OfficeDev/Microsoft-Graph-SDK-iOS).")
 @interface MSGraphServiceDriveOperations : MSGraphServiceEntityOperations
+
 
 - (instancetype)initOperationWithUrl:(NSString *)urlComponent parent:(id<MSOrcExecutable>)parent;
 

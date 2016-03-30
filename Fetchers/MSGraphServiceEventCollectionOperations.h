@@ -26,7 +26,9 @@ root for authoritative license information.﻿
 /** MSGraphServiceEventCollectionOperations
  *
  */
+__deprecated_msg("This SDK is deprecated. Please review the README for further information (https://github.com/OfficeDev/Microsoft-Graph-SDK-iOS).")
 @interface MSGraphServiceEventCollectionOperations : MSGraphServiceOutlookItemCollectionOperations
+
 
 - (void)acceptWithComment:(NSString *)comment sendResponse:(bool)sendResponse callback:(void (^)(int, MSOrcError*))callback ;
 - (void)acceptRawWithComment:(NSString *)comment sendResponse:(NSString *)sendResponse callback:(void (^)(NSString *, MSOrcError*))callback ;

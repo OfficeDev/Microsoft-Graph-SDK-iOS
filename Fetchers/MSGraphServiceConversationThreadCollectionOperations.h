@@ -26,7 +26,9 @@ root for authoritative license information.﻿
 /** MSGraphServiceConversationThreadCollectionOperations
  *
  */
+__deprecated_msg("This SDK is deprecated. Please review the README for further information (https://github.com/OfficeDev/Microsoft-Graph-SDK-iOS).")
 @interface MSGraphServiceConversationThreadCollectionOperations : MSGraphServiceEntityCollectionOperations
+
 
 - (void)replyWithPost:(MSGraphServicePost *)post callback:(void (^)(int, MSOrcError*))callback ;
 - (void)replyRawWithPost:(NSString *)post callback:(void (^)(NSString *, MSOrcError*))callback ;

@@ -26,7 +26,9 @@ root for authoritative license information.﻿
 /** MSGraphServiceUserCollectionFetcher
  *
  */
+__deprecated_msg("This SDK is deprecated. Please review the README for further information (https://github.com/OfficeDev/Microsoft-Graph-SDK-iOS).")
 @interface MSGraphServiceUserCollectionFetcher : MSOrcCollectionFetcher
+
 
 - (instancetype)initWithUrl:(NSString *)urlComponent parent:(id<MSOrcExecutable>)parent;
 

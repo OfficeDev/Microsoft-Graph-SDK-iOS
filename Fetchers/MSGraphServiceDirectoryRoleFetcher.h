@@ -31,7 +31,9 @@ root for authoritative license information.﻿
 /** MSGraphServiceDirectoryRoleFetcher
  *
  */
+__deprecated_msg("This SDK is deprecated. Please review the README for further information (https://github.com/OfficeDev/Microsoft-Graph-SDK-iOS).")
 @interface MSGraphServiceDirectoryRoleFetcher : MSOrcEntityFetcher
+
 
 @property (copy, nonatomic, readonly) MSGraphServiceDirectoryRoleOperations *operations;
 

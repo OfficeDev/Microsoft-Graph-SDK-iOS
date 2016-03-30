@@ -26,7 +26,9 @@ root for authoritative license information.﻿
 /** MSGraphServiceMailFolderCollectionOperations
  *
  */
+__deprecated_msg("This SDK is deprecated. Please review the README for further information (https://github.com/OfficeDev/Microsoft-Graph-SDK-iOS).")
 @interface MSGraphServiceMailFolderCollectionOperations : MSGraphServiceEntityCollectionOperations
+
 
 - (void)copyWithDestinationId:(NSString *)destinationId callback:(void (^)(MSGraphServiceMailFolder *, MSOrcError*))callback ;
 - (void)copyRawWithDestinationId:(NSString *)destinationId callback:(void (^)(NSString *, MSOrcError*))callback ;

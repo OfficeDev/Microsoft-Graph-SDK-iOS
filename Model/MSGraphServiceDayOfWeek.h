@@ -47,7 +47,9 @@ typedef NS_ENUM(NSInteger, MSGraphServiceDayOfWeek) {
 };
 
 
+__deprecated_msg("This SDK is deprecated. Please review the README for further information (https://github.com/OfficeDev/Microsoft-Graph-SDK-iOS).")
 @interface MSGraphServiceDayOfWeekSerializer : NSObject
+
 +(MSGraphServiceDayOfWeek) fromString:(NSString *) string;
 +(NSString *) toString: (MSGraphServiceDayOfWeek) value;
 @end

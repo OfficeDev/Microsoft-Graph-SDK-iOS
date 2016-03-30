@@ -26,7 +26,9 @@ root for authoritative license information.﻿
 /** MSGraphServiceDriveItemCollectionOperations
  *
  */
+__deprecated_msg("This SDK is deprecated. Please review the README for further information (https://github.com/OfficeDev/Microsoft-Graph-SDK-iOS).")
 @interface MSGraphServiceDriveItemCollectionOperations : MSGraphServiceEntityCollectionOperations
+
 
 - (void)createLinkWithType:(NSString *)type scope:(NSString *)scope callback:(void (^)(MSGraphServicePermission *, MSOrcError*))callback ;
 - (void)createLinkRawWithType:(NSString *)type scope:(NSString *)scope callback:(void (^)(NSString *, MSOrcError*))callback ;

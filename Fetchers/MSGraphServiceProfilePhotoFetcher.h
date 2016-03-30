@@ -28,7 +28,9 @@ root for authoritative license information.﻿
 /** MSGraphServiceProfilePhotoFetcher
  *
  */
+__deprecated_msg("This SDK is deprecated. Please review the README for further information (https://github.com/OfficeDev/Microsoft-Graph-SDK-iOS).")
 @interface MSGraphServiceProfilePhotoFetcher : MSOrcMediaEntityFetcher
+
 
 @property (copy, nonatomic, readonly) MSGraphServiceProfilePhotoOperations *operations;
 
